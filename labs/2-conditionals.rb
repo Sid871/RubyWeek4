@@ -32,3 +32,9 @@ total = die1 + die2
 puts "The total is: #{total}"
 
 #4. Display message based on what the numbers add up to 
+if total == 7 || total == 11
+    puts "Hum jeet gayein!"
+elsif total == 2 || total == 3 || total == 12
+puts "Teen goona lagaan"
+else puts "The point is #{total}"
+end 
