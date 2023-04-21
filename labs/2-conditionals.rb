@@ -30,3 +30,5 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+#4. Display message based on what the numbers add up to 

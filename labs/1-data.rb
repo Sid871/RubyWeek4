@@ -3,7 +3,7 @@
 # ruby 1-data.rb
 
 # EXERCISE
-# Play craps (roll two dice)
+#Play craps (roll two dice)
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two
 # dice. Set two variables, with names that make sense,
@@ -12,8 +12,12 @@
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
-# rand(1..6)
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
 # Log output to the screen with puts:
-# puts "Hello, world"
+#puts rand(1..6)
 
-puts "Hello"
+puts "The first die is #{die1}"
+puts "The second die is #{die2}"
+puts "The total is #{die1}"

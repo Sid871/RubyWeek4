@@ -3,13 +3,41 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+this_is_true = true 
+this_is_false = false 
+
+number = 5
 
 # Boolean Expressions
+#puts number == 5
+#puts number > 5 
+#puts number != 5
 
 # If Conditional Logic
+if 3 < 2
+    puts "you shouldn't be here"
+end
 
 # If/Else Conditional Logic
+user_entered_password = "secret"
+real_password = "secret"
+if user_entered_password == real_password
+    puts "you're in!"
+else puts " fuck off!"
+end 
 
 # Elsif Conditional Logic
-
+your_score = 2
+opponent_score = 2
+if your_score > opponent_score
+    puts "yay! woohooo!"
+elseif your_score == opponent_score
+puts "mmmm...tied!"
+else puts "boohooo hooo"
+end 
 # Combining Expressions
+temp = 68
+precip = 0
+if temp >= 66 || temp<= 90 && precip == 0
+    puts "wow! that's amazing!"
+end 
